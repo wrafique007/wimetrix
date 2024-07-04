@@ -5,7 +5,7 @@ import os
 import pandas as pd
 from langchain_core.tools import tool
 
-
+os.environ["OPENAI_API_KEY"] = ""
 
 df = pd.read_csv("Portal_Entry_data_report.csv")
 

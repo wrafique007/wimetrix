@@ -3,7 +3,7 @@ import os
 
 #os.environ["OPENAI_API_KEY"] = getpass.getpass()
 
-
+os.environ["OPENAI_API_KEY"] = ""
 
 # Uncomment the below to use LangSmith. Not required.
 # os.environ["LANGCHAIN_API_KEY"] = getpass.getpass()

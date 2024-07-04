@@ -1,0 +1,23 @@
+{
+    "id": "chatcmpl-9hECwVICS3ljgf2SCx9alq1vjZM3g",
+    "object": "chat.completion",
+    "created": 1720089746,
+    "model": "gpt-4o-2024-05-13",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "```json\n{\n  \"orders\": [\n    {\n      \"WorkOrder\": \"UA JAN24 29 1389287\",\n      \"ColorDesc\": \"001 Black\",\n      \"POs\": [\n        {\n          \"PO\": \"4222094992\",\n          \"Kit\": \"01\",\n          \"Season\": \"FW24\",\n          \"Packing\": \"FLAT\",\n          \"ShipTy\": \"Sea\",\n          \"PackTy\": \"S\",\n          \"PackRat\": \"12\",\n          \"CLength\": \"20.00\",\n          \"CWidth\": \"13.00\",\n          \"CHeight\": \"12.00\",\n          \"ExFactoryDate\": \"7/1/2024 12:00\",\n          \"DetailStore\": \"9003 DH NASHVILLE\",\n          \"Order\": \"ZNB\",\n          \"Quantities\": {\n            \"1X\": 1616,\n            \"2X\": 1077,\n            \"3X\": \"\"\n          }\n        },\n        {\n          \"PO\": \"4222096242\",\n          \"Kit\": \"02\",\n          \"Season\": \"FW24\",\n          \"Packing\": \"FLAT\",\n          \"ShipTy\": \"Sea\",\n          \"PackTy\": \"S\",\n          \"PackRat\": \"12\",\n          \"CLength\": \"20.00\",\n          \"CWidth\": \"13.00\",\n          \"CHeight\": \"12.00\",\n          \"ExFactoryDate\": \""
+            },
+            "logprobs": null,
+            "finish_reason": "length"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 1135,
+        "completion_tokens": 300,
+        "total_tokens": 1435
+    },
+    "system_fingerprint": "fp_4008e3b719"
+}

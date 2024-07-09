@@ -1,4 +1,3 @@
-
 import pprint
 import json
 import csv
@@ -40,14 +39,12 @@ for count in range(0,len(split_json_data)):
             # remove white spaces
             for c in range(len(header)):
                 header[c] = header[c].strip(' ')
-            csv_writer.writerow(header[1:])
+            csv_writer.writerow(header[1:-2])
         else:
             row = split_json_data[count].split('|')
             # remove white spaces
             for c in range(len(row)):
                 row[c] = row[c].strip(' ')
-            csv_writer.writerow(row[1:])
+            csv_writer.writerow(row[1:-2])
 
 csv_file.close()
-
-

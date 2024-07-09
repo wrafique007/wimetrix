@@ -1,0 +1,5 @@
+The picture shows a table with numerical and non numerical values. organize the information present in the picture in a csv form with headers correctly specified without any space in between the header names. order of the values should be maintained with respect to header names. Also do not include any other thing in output other than the data present in the picture.
+
+convert the information present in the picture into csv format and do not include anything in the output other than data present in the picture. no row should have more number of values than header names
+
+convert into table and do not include anything in the output other than data present in the picture.

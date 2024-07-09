@@ -23,9 +23,9 @@ column_widths = [150, 50, 150, 50, 50, 50, 50, 50, 50,
                  50, 50, 50, 150, 150, 50, 50, 50, 50]
 
 #layout = dict(autosize=True)
-image_content = FF.create_table(df, height_constant=100, index=False, )
+image_content = FF.create_table(df, height_constant=30, index=False, )
 fig = go.Figure(data=image_content, layout=layout)
-fig.layout.width = 3000
+fig.layout.width = 3200
 
 f2 = go.FigureWidget(fig)
 f2.show()
